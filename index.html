@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is ecommarce project for making ranju it bd">
+    <title>Ecommarce project</title>
+   
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+
+<nav>
+   <ul class="nav-upper flex-space-around">
+    <li class="nav-list">
+        <a href="index.html" class="nav-link">Home</a>
+    </li>
+    <li class="nav-list">
+        <a href="register.html" class="nav-link">Register</a>
+    </li>
+    <li class="nav-list">
+        <a href="login.html" class="nav-link">Login</a>
+    </li>
+    <li class="nav-list">
+        <a href="index.html" class="nav-link">Logout</a>
+    </li>
+    <li class="nav-list">
+        <a href="contact.html" class="nav-link">Contact</a>
+    </li>
+
+    <li class="nav-list">
+        <a href="profile.html" class="nav-link">
+            <img 
+            class="profile-icon"
+            src="picture 2.png" alt="profile picture">
+        </a>
+    </li>
+   </ul>
+   <ul class="nav-lower flex-space-around">
+    <li class="nav-list">
+        <a href="index.html" class="nav-brand-nav-link">RA Shopping Center
+        </a>
+    </li>
+    <li class="nav-list">
+        <a href="cart.html" class="nav-brand-nav-link">
+        <span><i class="fa-solid-fa-cart-shopping"></i></span>Cart 2 products - $124.40
+        </a>
+    </li>
+   </ul>
+</nav>
+
+
+<header>
+    <div class=" banner flex-space-around">
+        <marquee class="Member" behavior="" direction=""> All Group Members</marquee>
+        <marquee class="banner-title" behavior="" direction="">50% Sales Going On</marquee>
+        <div class="features flex-space-around ">
+            <article class="feature flex-center">
+            <i class="fa-solid fa-truck feature-icon"></i>
+            <h3>Shipping within 7 days</h3>
+           
+            </article>
+            <article class="feature flex-center">
+                <i class="fa-brands fa-rocketchat feature-icon"></i>
+                <h3> Support 24/7</h3>
+               
+                </article>
+                <article class="feature flex-center">
+                    <i class="fa-reguler fa-credit-card feature-icon"></i>
+                    <h3>Safe Payment</h3>
+                   
+                    </article>
+
+            
+    
+        </div>
+    </div>
+</header>
+
+
+<main class="flex-center">
+    <div class="sidebar">
+        <section class="categories-section">
+            <h3 class="section-title">Catagories</h3>
+            <ul class="list-type">
+            <li class="list">
+                <label for="Borkha" >
+                    
+                    <input type="checkbox">Borkha</label>
+             </li>
+             <li class="list">
+                <label for="bra" >
+                    
+                    <input type="checkbox">Bra</label>
+             </li>
+             <li class="list">
+                <label for="pant" >
+                    
+                    <input type="checkbox">Short pant</label>
+             </li>
+             <li class="list">
+                <label for="makup" >
+                    
+                    <input type="checkbox">Makup</label>
+             </li>
+             <li class="list">
+                <label for="Fabric" >
+                    
+                    <input type="checkbox">Fabric</label>
+                </li>     
+            </ul>
+
+        </section>
+        <section class="categories-section">
+            <h3 class="section-title">Price Range</h3>
+            <ul class="list-type">
+            <li class="list">
+                <label for="Borkha" >
+                    
+                    <input type="checkbox" value="[0 20]">$0-$20</label>
+             </li>
+             <li class="list">
+                <label for="bra" >
+                    
+                    <input type="checkbox">$21-$40</label>
+             </li>
+             <li class="list">
+                <label for="pant" >
+                    
+                    <input type="checkbox">$41-$80</label>
+             </li>
+             <li class="list">
+                <label for="makup" >
+                    
+                    <input type="checkbox">$81-$100</label>
+             </li>
+             <li class="list">
+                <label for="Fabric" >
+                    
+                    <input type="checkbox">$100+</label>
+                </li>     
+            </ul>
+
+        </section>
+        <section class="categories-section">
+            <h3 class="section-title">Shipping option </h3>
+            <ul class="list-type">
+            <li class="list">
+                <label for="free" >
+                    
+                    <input type="checkbox" value="[0 20]">Free Shipping</label>
+             </li>
+             <li class="list">
+                <label for="paid" >
+                    
+                    <input type="checkbox">Paid Shipping</label>
+             </li>
+            </ul>
+            </section>
+
+    </div>
+    <div class="main-contant">
+        <section class="actions flex-space-around">
+           <div class="action-short">
+            <label for="sort">
+                sort by:</label>
+                <select name="short" id="short">
+                <option value="sold"> Most sold first</option>
+                <option value="sold"> Most sold first</option>
+                <option value="sold"> Most sold first</option>
+                <option value="sold"> Most sold first</option>
+
+            </select>
+           </div>
+           <div class="search">
+            <input type="text" name="search" id="search" placeholder="Find your products">search
+           </div>
+        </section>
+
+        <section class="products">
+            <article class="product card">
+            <img class="product-img"src="BEST MAKEUP PRODUCTS OF 2019.jpeg" alt="product1">
+                <div class="product-body">
+                    <h2>Mekeup</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique quidem aspernatur iusto nulla blanditiis!....<a href="cart.html"> learn more</a></p>
+                    <h4>$2.00</h4>
+                    <p>Ratting 4.5/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+            </article>
+            <article class="product card">
+                <img class="product-img " src="6FBRHH52DNUNGADIZS5VCE4XQE.webp" alt="product2">
+                <div class="product-body">
+                    <h2>Bra</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique quidem aspernatur iusto nulla blanditiis!....<a href="cart.html"> learn more</a></p>
+                    <h4>$1.50</h4>
+                    <p>Ratting 4.0/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+            </article>
+            <article class="product card">
+                <img class="product-img " src="maxresdefault (1).jpg" alt="product3">
+                <div class="product-body">
+                    <h2>Short Pant</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore distinctio modi soluta tenetur sapiente Lorem, ipsum..!....<a href="cart.html"> learn more</a></p>
+                    <h4>$1.80</h4>
+                    <p>Ratting 4.3/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+            </article>
+            <article class="product card">
+                <img class="product-img " src="maxresdefault.jpg" alt="product4">
+                <div class="product-body">
+                    <h2>Ring</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique quidem aspernatur iusto nulla blanditiis!....<a href="cart.html"> learn more</a></p>
+                    <h4>$12.00</h4>
+                    <p>Ratting 4.5/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+            </article>
+            <article class="product card">
+                <img class="product-img " src="9bf67481379043226f44f2bc24f47a07.jpg" alt="product5">
+                <div class="product-body">
+                    <h2>Borkha</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique quidem aspernatur iusto nulla blanditiis!....<a href="cart.html"> learn more</a></p>
+                    <h4>$8.00</h4>
+                    <p>Ratting 4.8/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+            </article>
+            <article class="product card">
+                <img class="product-img " src="All-About-Fabrics-The-Beginners-Guide-to-Different-Types-of-Fabric.jpg" alt="product6">
+                <div class="product-body">
+                    <h2>Fabrics</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique quidem aspernatur iusto nulla blanditiis!....<a href="cart.html"> learn more</a></p>
+                    <h4>$5.00</h4>
+                    <p>Ratting 4.5/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+            </article>
+        </section>
+
+    </div>
+
+</main>
+
+<footer class="footer flex-space-around" >
+    <div class=" flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter:</label>
+        <input type="email" id="subscribe" name="Subscribe" class="footer-input" placeholder="Your Email Address"/>
+
+        <button class=" btn-subscribe">Subscribe</button>
+    </div>
+    <div>
+        <p>&copy;Copyright 2024 RA Shopping Center. All rights reserved</p>
+    </div>
+</footer>
+</body>
+
+</html>
